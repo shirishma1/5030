@@ -8,5 +8,3 @@ text = input()
 ob = CodesCracker()
 text = ob.UpToLow(text)
 print("\nIts Lowercase:", text)
-
-from dheeraj
