@@ -35,11 +35,11 @@ def Choose_Lang(text,lang_code):
     Lang_Codes = ['en', 'th', 'en-US', 'zh-Hans', 'en-Latn', 'en-IE']
     if(lang_code in  Lang_Codes ):
         return obj.lowercase(text)
-    elif lang_code == 'ga' or 'ga-IE':
+    elif lang_code == 'ga' or lang_code == 'ga-IE':
         return obj.Irish(text)
     elif lang_code == 'el':
         return obj.Greek(text) 
-    elif lang_code == 'tr':
+    elif lang_code == 'tr' or lang_code == 'az' :
         return obj.Turkish(text)
     
     else:
