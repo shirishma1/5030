@@ -19,7 +19,7 @@
 {"a" : 9, "b" : x, "c" : 9}	  error, All the inputs must be an integers
 {"a" : b, "b" : 9, "c" : 9}	  error, All the inputs must be an integers
 {"a" : b, "b" : #, "c" : 9}	  error, All the inputs must be an integers
-{"a" : 3.5, "b" : 3.8, "c" : 3.9}	  error, All inputs must be an integers
+{"a" : 9.5, "b" : 9.8, "c" : 9.9}	  error, All inputs must be an integers
 {"a" : -3, "b" : 4, "c" : 5}    error In this all the inputs must be > 0
 {"a" : 8, "b" : 5}	5 integers must entered
 {"a" : 8}   5 integers must entered
